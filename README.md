@@ -20,4 +20,4 @@
   - Different dynamics including different gravity and a broken joint for one of the cheetahs
  
 #### Results
-Naive SAC trained on the two environments could not learn the new policy. However, utilizing the three discriminators reached maximum reward. 
+Naive SAC trained on the two environments flatlines at -300 reward. However, utilizing the three discriminators reached maximum reward of 300. 
